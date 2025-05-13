@@ -14,30 +14,24 @@ This is a Todo management system based on Cloudflare Workers. It supports adding
 ## 🌐 Deployment Instructions
 
 
-<ol>
-  <li>
-    Create a Worker in the Cloudflare Dashboard  
+
+   1. Create a Worker in the Cloudflare Dashboard  
     <img src="https://cdn.canjie.org/AgADdxkAAgf-GFU.webp" alt="Step 1 - Create Worker" />
     <img src="https://cdn.canjie.org/AgADgBkAAgf-GFU.webp" alt="Step 2 - Create Worker" />
-  </li>
-  <li>
-    Set environment variables via `Vars`:  
+
+   2. Set environment variables via `Vars`:  
     - `PASS`: Login password (required)  
     - `TGID`: Telegram chat_id (required)  
     - `TGTOKEN`: Telegram Bot Token (required)  
     - `RECAPTCHA_SITE_KEY`: Google reCAPTCHA site key (optional)  
     - `RECAPTCHA_SECRET`: Google reCAPTCHA secret (optional)  
     <img src="https://cdn.canjie.org/AgADeBkAAgf-GFU.webp" alt="Set Vars" />
-  </li>
-  <li>
-    Create and bind a KV namespace `TODO_KV` to store the list of todos  
+  
+   3. Create and bind a KV namespace `TODO_KV` to store the list of todos  
     <img src="https://cdn.canjie.org/AgADeRkAAgf-GFU.webp" alt="Bind KV" />
-  </li>
-  <li>
-    Upload `worker.js` and deploy  
+
+    4.Upload `worker.js` and deploy  
     <img src="https://cdn.canjie.org/AgADgRkAAgf-GFU.webp" alt="Upload Deployment" />
-  </li>
-</ol>
 
 
 
