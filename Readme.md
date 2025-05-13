@@ -33,8 +33,6 @@ This is a Todo management system based on Cloudflare Workers. It supports adding
     4.Upload `worker.js` and deploy  
     <img src="https://cdn.canjie.org/AgADgRkAAgf-GFU.webp" alt="Upload Deployment" />
 
-
-
 ## 🔒 Login
 
 Visit the home page `/` and log in with your password. The login status is managed via a `loggedIn=true` cookie.
