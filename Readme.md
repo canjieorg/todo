@@ -16,8 +16,8 @@ This is a Todo management system based on Cloudflare Workers. It supports adding
 
 
    1. Create a Worker in the Cloudflare Dashboard  
-    <img src="https://cdn.canjie.org/AgADdxkAAgf-GFU.webp" alt="Step 1 - Create Worker" />
-    <img src="https://cdn.canjie.org/AgADgBkAAgf-GFU.webp" alt="Step 2 - Create Worker" />
+   ![AgADdxkAAgf-GFU.webp](https://cdn.canjie.org/AgADdxkAAgf-GFU.webp)
+![AgADgBkAAgf-GFU.webp](https://cdn.canjie.org/AgADgBkAAgf-GFU.webp)
 
    2. Set environment variables via `Vars`:  
     - `PASS`: Login password (required)  
@@ -25,13 +25,13 @@ This is a Todo management system based on Cloudflare Workers. It supports adding
     - `TGTOKEN`: Telegram Bot Token (required)  
     - `RECAPTCHA_SITE_KEY`: Google reCAPTCHA site key (optional)  
     - `RECAPTCHA_SECRET`: Google reCAPTCHA secret (optional)  
-    <img src="https://cdn.canjie.org/AgADeBkAAgf-GFU.webp" alt="Set Vars" />
+   ![AgADeBkAAgf-GFU.webp](https://cdn.canjie.org/AgADeBkAAgf-GFU.webp)
   
    3. Create and bind a KV namespace `TODO_KV` to store the list of todos  
-    <img src="https://cdn.canjie.org/AgADeRkAAgf-GFU.webp" alt="Bind KV" />
+   ![AgADeRkAAgf-GFU.webp](https://cdn.canjie.org/AgADeRkAAgf-GFU.webp)
 
     4.Upload `worker.js` and deploy  
-    <img src="https://cdn.canjie.org/AgADgRkAAgf-GFU.webp" alt="Upload Deployment" />
+   ![AgADgRkAAgf-GFU.webp](https://cdn.canjie.org/AgADgRkAAgf-GFU.webp)
 
 ## 🔒 Login
 
