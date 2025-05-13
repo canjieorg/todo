@@ -30,7 +30,7 @@ This is a Todo management system based on Cloudflare Workers. It supports adding
    3. Create and bind a KV namespace `TODO_KV` to store the list of todos  
    ![AgADeRkAAgf-GFU.webp](https://cdn.canjie.org/AgADeRkAAgf-GFU.webp)
 
-    4.Upload `worker.js` and deploy  
+    4. Upload `worker.js` and deploy  
    ![AgADgRkAAgf-GFU.webp](https://cdn.canjie.org/AgADgRkAAgf-GFU.webp)
 
 ## 🔒 Login
